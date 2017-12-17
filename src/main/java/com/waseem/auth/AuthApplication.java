@@ -15,7 +15,6 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @EnableJpaRepositories(entityManagerFactoryRef = "entityManagerFactory",
     basePackages = {"com.waseem.auth.repository"})
 @EnableJpaAuditing
-@EnableCaching
 @EntityScan(basePackages = {"com.waseem.auth.model"})
 public class AuthApplication {
 
